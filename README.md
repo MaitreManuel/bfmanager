@@ -11,6 +11,7 @@ You'll need to have [Docker](https://docs.docker.com/engine/install/) and [Docke
 ```
 git clone https://github.com/MaitreManuel/bfmanager.git
 cd bfmanager
+docker-compose up -d
 docker-compose exec node npm install
 ```
 
