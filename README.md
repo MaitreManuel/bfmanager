@@ -15,6 +15,8 @@ docker-compose up -d
 docker-compose exec node npm install
 ```
 
+Maybe you'll get an error from node container due to missing dependencies, make a second `docker-compose up -d` if needed.
+
 ### How to setup database (the lazy way)
 
 1. Go to http://localhost:16543/login, you'll be redirect to pgAdmin.
