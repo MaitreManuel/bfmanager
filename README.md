@@ -47,8 +47,8 @@ docker-compose exec node npm install
 
 ### How to display the app
 
-Open the file present in `client/index.html` and you'll see the most beautiful interface of all time..
+Open the file present in `client/index.html` and you'll see the most beautiful interface of all time 👌
 
 ![image](https://user-images.githubusercontent.com/23707008/185820000-19febfd5-2b04-4790-95a1-62d647fd83d1.png)
 
-Enjoy !
+Enjoy ! ⚽ 🍺
