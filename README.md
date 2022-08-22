@@ -30,7 +30,7 @@ docker-compose exec node npm install
 
 ![image](https://user-images.githubusercontent.com/23707008/185819711-57acd6b6-5ad1-42b8-b62b-6afe1db2a300.png)
 
-6. Then a __Database__ entry appear, right click on it, __Create__ > __Database...__
+6. Then a __Databases__ entry appear, right click on it, __Create__ > __Database...__
 
 ![image](https://user-images.githubusercontent.com/23707008/185819765-50938a7c-d518-4848-9338-a02eb40df1e2.png)
 
@@ -38,7 +38,7 @@ docker-compose exec node npm install
 
 ![image](https://user-images.githubusercontent.com/23707008/185819828-5dc2d5a0-4e74-463a-9224-ffb1a4807468.png)
 
-8. Then right click on bfmanager bellow __Database__, and click __Query Tool__.
+8. Then right click on bfmanager bellow __Databases__, and click __Query Tool__.
 
 ![image](https://user-images.githubusercontent.com/23707008/185819858-c97c174c-e195-4093-87a5-499c7fbdf7cb.png)
 
