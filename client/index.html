@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>BF Manager</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="new-game__wrapper">
+                <label for="players">Nom des joueurs :</label>
+                <input id="players" type="text" placeholder="John vs Jane" />
+                <button id="add-game" type="button">Ajouter</button>
+            </div>
+            <div class="legend__wrapper">
+                <p><span class="finished">V</span> Fin de partie</p>
+                <p><span class="already-finished">V</span> Partie finie</p>
+                <p><span class="delete">X</span> Supprimer partie</p>
+            </div>
+        </header>
+        <section>
+            <div class="list-game__wrapper">
+                <p>Parties en cours <span id="counter"></span></p>
+                <div id="games"></div>
+            </div>
+            <div class="list-message__wrapper">
+                <input id="nickname" type="text" placeholder="Pseudo" />
+                <div id="messages"></div>
+                <input id="message" type="text" placeholder="Votre message" />
+                <button id="add-message" type="button">Envoyer</button>
+            </div>
+        </section>
+        <script type="application/javascript" src="https://cdn.socket.io/4.4.1/socket.io.js"></script>
+        <script type="application/javascript" src="main.js"></script>
+    </body>
+</html>

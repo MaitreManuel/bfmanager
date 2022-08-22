@@ -1,0 +1,16 @@
+{
+  "name": "babyfoot-manager",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start:dev": "NODE_PORT=5000 nodemon --delay 1500ms --watch 'server/**/*' server/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "engine": "node >= 16.17.0",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "socket.io": "^4.5.1"
+  }
+}

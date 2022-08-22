@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+    node:
+        image: node:16.17.0
+        command: npm run start:dev
+        volumes:
+            - .:/app
+        working_dir: /app
+        depends_on:
+            - postgres
+        build:
+            context: .
+        restart: always
+        ports:
+            - "5000:5000"
+        environment:
+            - TZ=GMT+2
+    postgres:
+        image: postgres:14.5
+        restart: always
+        environment:
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=bfmanager
+            - TZ=GMT+2
+            - PGTZ=GMT+2
+        ports:
+            - "5432:5432"
+
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            - PGADMIN_DEFAULT_EMAIL=admin@adm.com
+            - PGADMIN_DEFAULT_PASSWORD=admin
+            - TZ=GMT+2
+
+        ports:
+            - "16543:80"
+        depends_on:
+            - postgres
