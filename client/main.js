@@ -149,10 +149,6 @@ document.addEventListener('DOMContentLoaded', () => {
         getMessages();
     });
 
-    if (event.keyCode === 13) {
-        $("#id_of_button").click();
-    }
-
     document.querySelector('#add-game').addEventListener('click', () => {
         ADD_GAME_ACTION();
     });
