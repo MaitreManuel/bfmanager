@@ -1,6 +1,6 @@
 # BabyFoot Manager
 
-BabyFoot Manager is a [RIA](https://en.wikipedia.org/wiki/Rich_Internet_application) application which allow to generate babyfoot games. The main feature is to create games in colaborative way.
+BabyFoot Manager is a [RIA](https://en.wikipedia.org/wiki/Rich_Internet_application) application to generate babyfoot games. The main feature is to create games in colaborative way.
 
 ### Prerequisite
 
